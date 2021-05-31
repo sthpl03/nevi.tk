@@ -1,0 +1,76 @@
+[
+    {
+        "name": "category",
+        "description": "Enables or disables the specified category.",
+        "usage": "(type) (category)"
+    },
+    {
+        "name": "command",
+        "description": "Enables or disables the specified command.",
+        "usage": "(command) (type)"
+    },
+    {
+        "name": "createembed",
+        "description": "Converts the specified embed object into an embed.",
+        "usage": "(embed object)"
+    },
+    {
+        "name": "defaultrole",
+        "description": "Sets or disables the role that every member that joins the guild will get.",
+        "usage": "(role)"
+    },
+    {
+        "name": "leavemessage",
+        "aliases": ["setlm", "setleavemessage"],
+        "description": "Sets the leave message that the bot will send every time that a member leaves.",
+        "usage": "(message)"
+    },
+    {
+        "name": "logs",
+        "description": "Sets the logs of the type given to the specified channel.",
+        "usage": "(logs category) (channel | disabled)"
+    },
+    {
+        "name": "nick",
+        "aliases": ["nickname"],
+        "description": "Changes the nickname of the specified member to the nickname given.",
+        "usage": "(member) (nickname)"
+    },
+    {
+        "name": "permission",
+        "description": "Gives or removes the bot permission given from the specified role.",
+        "usage": "(permission) (type) (role)"
+    },
+    {
+        "name": "prefix",
+        "description": "Gets or changes the guild's prefix.",
+        "usage": "(prefix)"
+    },
+    {
+        "name": "role",
+        "description": "Gives or removes the role given from the specified member with the reason given.",
+        "usage": "(member) (type) (role), (reason)"
+    },
+    {
+        "name": "setcooldown",
+        "description": "Sets the given cooldown to the specified command.",
+        "usage": "(command) (cooldown)"
+    },
+    {
+        "name": "temprole",
+        "description": "Gives the role given to the specified member for the duration and reason given.",
+        "usage": "(member) (duration) (role), (reason)"
+    },
+    {
+        "name": "welcomeleavechannel",
+        "aliases": ["wlchannel"],
+        "description": "Sets the channel where the bot will send the welcome or leave message.",
+        "usage": "(channel | disabled)"
+    },
+    {
+        "name": "welcomemessage",
+        "aliases": ["setwelcomemessage", "setwm"],
+        "description": "Sets or disables the welcome message of the guild to the message given or disables it if a message wasn't specified, every member that joins the guild will receive this message.",
+        "usage": "(type) (message | disabled)"
+    }
+]

@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    --main-color: #0098ff;
+    --background-color: white;
+    --darker-background: #F3F3F3;
+    --text-color: black;
+}
+
+html[data-theme='dark'] {
+    color-scheme: dark;
+    --background-color: #1F1F1F;
+    --darker-background: #1A1A1A;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+strong, h1, h2 {
+    font-weight: 500;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 75px;
+    color: var(--main-color);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: var(--text-color);
+    transition: color 0.6s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: var(--main-color);
+}
+
+div.banner {
+    margin: 100px 75px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--text-color);
+}
+
+div.banner a.invite {
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: white;
+    margin-right: 25px;
+    transition: border-radius 0.6s ease;
+}
+
+div.banner p {
+    margin: 25px 0px;
+    max-width: 550px;
+}
+
+div.banner a.invite:hover {
+    border-radius: 0px;
+}
+
+div.banner a:not(.invite) {
+    color: var(--main-color);
+}
+
+div.banner img {
+    height: 185px;
+    margin-left: 25px;
+}
+
+div#features {
+    margin: 0px 75px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 400px));
+    justify-content: space-around;
+}
+
+div#features div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+}
+
+div#features div.card i {
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
+div#features div.card h2 {
+    margin: 15px 0px;
+}
+
+div#features div.card a {
+    color: var(--main-color);
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--darker-background);
+    color: var(--text-color);
+    padding: 50px 75px;
+}
+
+footer div.box {
+    margin: 15px;
+}
+
+footer img {
+    height: 150px;
+}
+
+footer a {
+    color: var(--text-color);
+}
+
+label#dark-toggle input {
+    display: none;
+}
+
+input#dark-toggle {
+    display: none;
+}
+
+span.check {
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+span.check::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 5px;
+    top: 5px;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.6s ease;
+}
+
+input#dark-toggle:checked ~ span.check::before {
+    transform: translateX(35px);
+}
+
+@media only screen and (max-width: 850px) {
+    div.banner img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div.banner a:not(.invite) {
+        display: none;
+    }
+}

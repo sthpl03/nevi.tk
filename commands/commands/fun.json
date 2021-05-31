@@ -1,0 +1,72 @@
+[
+    {
+        "name": "8ball",
+        "description": "The 8ball will answer to the specified question.",
+        "usage": "(question)"
+    },
+    {
+        "name": "coinflip",
+        "description": "Flips a coin and gives you the result."
+    },
+    {
+        "name": "fortunecookie",
+        "aliases": ["fortune", "cookie"],
+        "description": "Gives you the fortune that you got from the cookie."
+    },
+    {
+        "name": "gay",
+        "aliases": ["gayrate"],
+        "description": "Gets how gay the specified member is.",
+        "usage": "(member)"
+    },
+    {
+        "name": "horniness",
+        "description": "Gets how horny the specified member is.",
+        "usage": "(member)"
+    },
+    {
+        "name": "iq",
+        "aliases": ["iqrate"],
+        "description": "Gets the iq of the specified member.",
+        "usage": "(member)"
+    },
+    {
+        "name": "meme",
+        "description": "Gets a random meme from the internet."
+    },
+    {
+        "name": "owoify",
+        "aliases": ["uwuify"],
+        "description": "OwOifys the specified text.",
+        "usage": "(text)"
+    },
+    {
+        "name": "pp",
+        "aliases": ["ppsize", "inches"],
+        "description": "Gets the amount of inches that the specified member has.",
+        "usage": "(member)"
+    },
+    {
+        "name": "rps",
+        "aliases": ["rockpaperscissors"],
+        "description": "Play rock paper scissors with the bot.",
+        "usage": "(decision)"
+    },
+    {
+        "name": "ship",
+        "aliases": ["love"],
+        "description": "Gets the amount of love that the specified members have between each other.",
+        "usage": "(member) (member)"
+    },
+    {
+        "name": "translate",
+        "description": "Translates the specified text from the source language to the target language given.",
+        "usage": "(source language)-(target language) (text)"
+    },
+    {
+        "name": "urban",
+        "aliases": ["definition"],
+        "description": "Gets the definition and usage of the specified word.",
+        "usage": "(word) [(page)]"
+    }
+]

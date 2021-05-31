@@ -1,0 +1,116 @@
+[
+    {
+        "name": "ban",
+        "description": "Bans the specified member from the guild for the reason and duration given.",
+        "usage": "(member) (duration) (reason)"
+    },
+    {
+        "name": "deletewarn",
+        "aliases": ["delwarn", "deletewarning"],
+        "description": "Deletes a warn from a member by the specified id.",
+        "usage": "(warn id) (reason)"
+    },
+    {
+        "name": "fixname",
+        "aliases": ["fixnickname", "fixnick"],
+        "description": "Changes the nickname of the specified member to a typable one.",
+        "usage": "(member)"
+    },
+    {
+        "name": "getlogs",
+        "aliases": ["logsof", "userlogs"],
+        "description": "Gets all the logs or actions done on this user.",
+        "usage": "(user) (page)"
+    },
+    {
+        "name": "joinlock",
+        "description": "Enables or disables the access of members from joining the guild.",
+        "usage": "(type) (reason)"
+    },
+    {
+        "name": "kick",
+        "aliases": ["k"],
+        "description": "Kicks the specified member from the guild with the reason given.",
+        "usage": "(member) (reason)"
+    },
+    {
+        "name": "kickpersist",
+        "description": "Kicks the specified member for the duration and reason given even if the member rejoins the guild.",
+        "usage": "(member) (duration) (reason)"
+    },
+    {
+        "name": "lock",
+        "aliases": ["close"],
+        "description": "Locks the specified or current channel with the reason given.",
+        "usage": "(channel) (reason)"
+    },
+    {
+        "name": "mute",
+        "description": "Mutes the specified member forever or for the duration specified with the reason given.",
+        "usage": "(member) (duration) (reason)"
+    },
+    {
+        "name": "nuke",
+        "description": "Clones and deletes the specified channel with the reason given to remove all of its messages.",
+        "usage": "(channel) (reason)"
+    },
+    {
+        "name": "purge",
+        "aliases": ["clear"],
+        "description": "Deletes the amount of messages given in the specified member.",
+        "usage": "(member) (amount)"
+    },
+    {
+        "name": "rolepersist",
+        "description": "Gives or removes the role given from the specified member even if the member rejoins the guild",
+        "usage": "(type) (member) (role), (reason)"
+    },
+    {
+        "name": "slowmode",
+        "description": "Sets the slowmode for the duration given in the specified or the current channel.",
+        "usage": "(channel) (duration)"
+    },
+    {
+        "name": "softban",
+        "description": "Bans the specified member and unbans them with the reason given to remove their messages with the specified day limit.",
+        "usage": "(member) (days) (reason)"
+    },
+    {
+        "name": "timeleft",
+        "description": "Gets the time left of the temp logs of the specified member.",
+        "usage": "(member)"
+    },
+    {
+        "name": "unban",
+        "description": "Unbans the specified member from the guild with the reason given.",
+        "usage": "(member) (reason)"
+    },
+    {
+        "name": "unkickpersist",
+        "description": "Unkickpersist the specified member with the reason given.",
+        "usage": "(member) (reason)"
+    },
+    {
+        "name": "unlock",
+        "aliases": ["open"],
+        "description": "Unlocks the specified channel with the reason given.",
+        "usage": "(channel) (reason)"
+    },
+    {
+        "name": "unmute",
+        "description": "Unmutes the specified member with the reason given.",
+        "usage": "(member) (reason)"
+    },
+    {
+        "name": "warn",
+        "aliases": ["givewarning", "givewarn"],
+        "description": "Warns the specified member with the reason given.",
+        "usage": "(member) (reason)"
+    },
+    {
+        "name": "warnings",
+        "aliases": ["getwarnings", "warns"],
+        "description": "Gets the warnings of the specified user.",
+        "usage": "(user) (page)"
+    }
+]

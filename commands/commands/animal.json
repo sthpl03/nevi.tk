@@ -1,0 +1,34 @@
+[
+    {
+        "name": "bunny",
+        "aliases": ["rabbit"],
+        "description": "Gets a random bunny from the internet."
+    },
+    {
+        "name": "cat",
+        "aliases": ["kitty"],
+        "description": "Gets a random cat from the internet."
+    },
+    {
+        "name": "dog",
+        "aliases": ["doggo"],
+        "description": "Gets a random dog from the internet."
+    },
+    {
+        "name": "duck",
+        "aliases": ["duk"],
+        "description": "Gets a random duck from the internet."
+    },
+    {
+        "name": "fox",
+        "description": "Gets a random fox from the internet."
+    },
+    {
+        "name": "panda",
+        "description": "Gets a random panda from the internet."
+    },
+    {
+        "name": "redpanda",
+        "description": "Gets a random red panda from the internet."
+    }
+]

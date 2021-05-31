@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme='dark'>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='theme-color' content='#0098ff'>
+    <meta property='og:site_name' content='Nevi'>
+    <meta property='og:title' content='Nevi - Manage, moderate and customize'>
+    <meta property='og:description' content='Nevi is a discord bot that will let you customize, moderate and manage your discord server to your liking.'>
+    <meta property='og:image' content='https://nevi.tk/images/Nevi.png'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a5da7d6361.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/Nevi.ico" type="image/x-icon">
+    <title>Nevi - Home</title>
+</head>
+<body>
+    <nav>
+        <strong>Nevi</strong>
+        <ul>
+            <li><a href="#" class='active'>Home</a></li>
+            <li><a href="./invite/">Invite</a></li>
+            <li><a href="./commands/">Commands</a></li>
+        </ul>
+    </nav>
+    <div class="banner">
+        <div>
+            <h1>Server managing made simple</h1>
+            <p>Nevi is a multi-purpose discord bot that will help you make your server how you want it, with verification, moderation, customization and much more so you can make the server you dreamed of.</p>
+            <a href="./invite/" class='invite'>Invite</a>
+            <strong><a href="#features">Features</a></strong>
+        </div>
+        <img src="./images/Nevi.svg" alt="Nevi">
+    </div>
+    <div id="features">
+        <div class="card">
+            <i class="fas fa-lock"></i>
+            <h2>Verification</h2>
+            <p>Add an extra layer of security to your server with captchas! An easy to set up way to keep alts and raid bots away from your community.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-cog"></i>
+            <h2>Customization</h2>
+            <p>Make Nevi yours by changing its prefix, command and server settings such as cooldowns, permissions, welcome/leave messages, etc.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-gavel"></i>
+            <h2>Moderation</h2>
+            <p>Protect your server against trolls with temp mutes, bans, kick persists (account only bans) and stop raids with join locking, slowmode, etc.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-ellipsis-h"></i>
+            <h2>And more</h2>
+            <p>Nevi has more features you might like and weren't listed here and even more to come, Try it out at <a href="./invite/">nevi.tk/invite</a></p>
+        </div>
+    </div>
+    <footer>
+        <img src="./images/Nevi.svg" alt="Nevi">
+        <div class="box">
+            <strong>Links</strong>
+            <ul>
+                <li><a href="./invite/">Invite Me</a></li>
+                <li><a href="https://top.gg/bot/703042010352713729/vote">Vote Me</a></li>
+                <li><a href="https://discord.gg/57Gdp6R5yS">Community & Support Server</a></li>
+                <li><a href="https://top.gg/servers/685975487109136385/vote">Vote The Server</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <strong>Options</strong>
+            <ul>
+                <li><p>Dark Mode</p></li>
+                <label>
+                    <input type="checkbox" id="dark-toggle" checked>
+                    <span class="check"></span>
+                </label>
+            </ul>
+        </div>
+    </footer>
+    <script src="./js/dark-mode.js"></script>
+</body>
+</html>

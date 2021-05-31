@@ -1,0 +1,89 @@
+[
+    {
+        "name": "animeinfo",
+        "aliases": ["anime"],
+        "description": "Gets the information of the specified anime.",
+        "usage": "(anime) [(page)]"
+    },
+    {
+        "name": "avatar",
+        "aliases": ["av"],
+        "description": "Gets the avatar of the specified user.",
+        "usage": "(user)"
+    },
+    {
+        "name": "botinfo",
+        "aliases": ["invite"],
+        "description": "Gets the information of the bot."
+    },
+    {
+        "name": "changelog",
+        "description": "Gets the latest changelog of the bot."
+    },
+    {
+        "name": "channelinfo",
+        "description": "Gets the information of the specified or current channel.",
+        "usage": "(channel)"
+    },
+    {
+        "name": "corona",
+        "aliases": ["coronastatus", "covid", "covidstatus"],
+        "description": "Gets the current status on the world or on the specified country of the current pandemic.",
+        "usage": "(country)"
+    },
+    {
+        "name": "help",
+        "aliases": ["cmds", "commands"],
+        "description": "Gives you the info of the specified command or the full list of commands.",
+        "usage": "(command)"
+    },
+    {
+        "name": "mclookup",
+        "aliases": ["minecraftsearch", "minecraftlookup", "mcsearch"],
+        "description": "Gets the info of the minecraft player found by the name or uid given.",
+        "usage": "(uid | name)"
+    },
+    {
+        "name": "ping",
+        "description": "Gets the latency of the bot."
+    },
+    {
+        "name": "pingme",
+        "aliases": ["notifications"],
+        "description": "Gives or removes you the PingMe role that is used by the staff to give less important announcements."
+    },
+    {
+        "name": "poll",
+        "aliases": ["createpoll"],
+        "description": "Creates a poll about the topic specified.",
+        "usage": "(message) [(choice1)] [(choice2)]"
+    },
+    {
+        "name": "remind",
+        "aliases": ["reminder", "setreminder"],
+        "description": "The bot will remind you the specified message in the duration given.",
+        "usage": "(duration) (message)"
+    },
+    {
+        "name": "roleinfo",
+        "description": "Gets the info of the specified role.",
+        "usage": "(role)"
+    },
+    {
+        "name": "rover",
+        "aliases": ["roblox"],
+        "description": "Gets the information of the specified user's linked roblox account.",
+        "usage": "(user)"
+    },
+    {
+        "name": "serverinfo",
+        "aliases": ["guildinfo"],
+        "description": "Gets the info of the current guild."
+    },
+    {
+        "name": "whois",
+        "aliases": ["userinfo"],
+        "description": "Gets the information of the specified user.",
+        "usage": "(user)"
+    }
+]
